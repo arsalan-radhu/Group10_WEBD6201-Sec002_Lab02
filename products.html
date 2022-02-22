@@ -1,0 +1,105 @@
+<!--
+  Title: product.html
+  Authors: Arsalan Arif Radhu, Sanjivkumar Patel
+  Date: 09/02/2022
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Favourite Projects</title>
+    <!-- CSS Section -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="./Content/app.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><i class="fas fa-bug"></i> Group10 Lab2</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="products.html"><i class="fas fa-project-diagram"></i> Products</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="services.html"><i class="fas fa-map-signs"></i> Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html"><i class="fas fa-info"></i> About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html"><i class="fas fa-envelope"></i> Contact Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="login.html"><i class="fas fa-sign-in-alt"></i> Login</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main class="MainContainer">
+      <div class="container">
+        <div class="list" id="para-1"></div>
+        
+        <div class="photos">
+          <div class="col-about">
+            <img id="project_picture" src="./Assets/ArsalanProject1.jpg" alt="Photo by Arsalan">
+          This project was done last semester for WEBD3201. We had to make a website 
+          using a given template for our 'company'. The site a login functionality which
+          also logged the login attempts etc. It was able to register two different types of
+          users and was able to give access according to the user's authorization. 
+          </div>
+          <div class="col-about">
+            <img id="project_picture" src="./Assets/ArsalanProject2.jpg" alt="Photo by Arsalan">
+            This project was the first major project that I had ever done in my  life.
+            This was done for NETD2202 as a final project. It was a little challenging due
+            to some circumstances but I was able to make an acceptable program which I was happy with.
+          </div>
+        </div>
+        <div class="list" id="para-2"></div>
+        <div class="photos">
+          <div class="col-about">
+            <img id="project_picture" src="./Assets/SanjivProject1.jpg" alt="Photo by Sanjiv">
+            I loved to work on this Assignment project
+            because even If I was struggling through out the Project I was getting
+            so much help from my Prof every time I asked and we made this project
+            worked and I really enjoyed working with this project with the help of
+            my Prof.<br /><br /><br /><br />
+          </div>
+          <div class="col-about">
+            <img id="project_picture" src="./Assets/SanjivProject2.jpg" alt="Photo of Sanjiv">
+            In this specific Assignment as we started in the beginning of the term,
+            I was struggling to create the GUI and I looked up help through watching 
+            Lectures Videos and I started working on it on my own and found it very 
+            interesting going forward and it possible with the help of my Professor
+            as he was so helpful to me through out my whole semester. So, this
+            project was one of my favorite.<br /><br /><br />
+          </div>
+        </div>
+      </div>
+      
+    </main>
+
+    <nav class="navbar fixed-bottom navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> &copy CopyRight 2022</a>
+      </div>
+    </nav>
+    
+    <!-- Scripting Section -->
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./Scripts/app.js"></script>
+</body>
+</html>
